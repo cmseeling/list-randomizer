@@ -99,9 +99,15 @@ export default defineConfig({
 					}
 				},
 				fonts: {
-					sans: { value: 'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"' },
+					sans: {
+						value:
+							'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'
+					},
 					serif: { value: 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif' },
-					mono: { value: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace' }
+					mono: {
+						value:
+							'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace'
+					}
 				},
 				fontWeights: {
 					thin: { value: '100' },
@@ -181,7 +187,7 @@ export default defineConfig({
 					4: { value: '4px solid' },
 					8: { value: '8px solid' }
 				},
-				opacities: {
+				opacity: {
 					0: { value: '0' },
 					5: { value: '0.05' },
 					10: { value: '0.1' },
