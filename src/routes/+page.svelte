@@ -1,4 +1,5 @@
 <script>
+	import NameInput from '$components/NameInput/NameInput.svelte';
 	import { css } from 'styled-system/css';
 </script>
 
@@ -18,4 +19,6 @@
 	>
 		Hello 🐼!
 	</div>
+
+	<NameInput onSubmit={console.log} />
 </div>
