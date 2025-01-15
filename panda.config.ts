@@ -165,6 +165,21 @@ export default defineConfig({
 					72: { value: '18rem' },
 					80: { value: '20rem' },
 					96: { value: '24rem' }
+				},
+				borderWidths: {
+					default: { value: '1px' },
+					0: { value: '0px' },
+					2: { value: '2px' },
+					4: { value: '4px' },
+					8: { value: '8px' }
+				},
+				borders: {
+					none: { value: 'none' },
+					default: { value: '1px solid' },
+					0: { value: '0px' },
+					2: { value: '2px solid' },
+					4: { value: '4px solid' },
+					8: { value: '8px solid' }
 				}
 			}
 		}
