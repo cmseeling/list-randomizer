@@ -180,6 +180,63 @@ export default defineConfig({
 					2: { value: '2px solid' },
 					4: { value: '4px solid' },
 					8: { value: '8px solid' }
+				},
+				opacities: {
+					0: { value: '0' },
+					5: { value: '0.05' },
+					10: { value: '0.1' },
+					20: { value: '0.2' },
+					25: { value: '0.25' },
+					30: { value: '0.3' },
+					40: { value: '0.4' },
+					50: { value: '0.5' },
+					60: { value: '0.6' },
+					70: { value: '0.7' },
+					75: { value: '0.75' },
+					80: { value: '0.8' },
+					90: { value: '0.9' },
+					95: { value: '0.95' },
+					100: { value: '1' }
+				},
+				zIndex: {
+					0: { value: '0' },
+					10: { value: '10' },
+					20: { value: '20' },
+					30: { value: '30' },
+					40: { value: '40' },
+					50: { value: '50' },
+					auto: { value: 'auto' }
+				},
+				durations: {
+					75: { value: '75ms' },
+					100: { value: '100ms' },
+					150: { value: '150ms' },
+					200: { value: '200ms' },
+					300: { value: '300ms' },
+					500: { value: '500ms' },
+					700: { value: '700ms' },
+					1000: { value: '1000ms' }
+				},
+				easings: {
+					linear: { value: 'linear' },
+					in: { value: 'cubic-bezier(0.4, 0, 1, 1)' },
+					out: { value: 'cubic-bezier(0, 0, 0.2, 1)' },
+					'in-out': { value: 'cubic-bezier(0.4, 0, 0.2, 1)' }
+				},
+				blurs: {
+					none: { value: '0' },
+					sm: { value: '4px' },
+					default: { value: '8px' },
+					md: { value: '12px' },
+					lg: { value: '16px' },
+					xl: { value: '24px' },
+					'2xl': { value: '40px' },
+					'3xl': { value: '64px' }
+				},
+				aspectRatios: {
+					auto: { value: 'auto' },
+					square: { value: '1/1' },
+					video: { value: '16/9' }
 				}
 			}
 		}
