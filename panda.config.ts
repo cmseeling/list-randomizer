@@ -103,6 +103,32 @@ export default defineConfig({
 					serif: { value: 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif' },
 					mono: { value: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace' }
 				},
+				fontWeights: {
+					thin: { value: '100' },
+					extralight: { value: '200' },
+					light: { value: '300' },
+					normal: { value: '400' },
+					medium: { value: '500' },
+					semibold: { value: '600' },
+					bold: { value: '700' },
+					extrabold: { value: '800' },
+					black: { value: '900' }
+				},
+				fontSizes: {
+					xs: { value: '0.75rem' },
+					sm: { value: '0.875rem' },
+					base: { value: '1rem' },
+					lg: { value: '1.125rem' },
+					xl: { value: '1.25rem' },
+					'2xl': { value: '1.5rem' },
+					'3xl': { value: '1.875rem' },
+					'4xl': { value: '2.25rem' },
+					'5xl': { value: '3rem' },
+					'6xl': { value: '3.75rem' },
+					'7xl': { value: '4.5rem' },
+					'8xl': { value: '6rem' },
+					'9xl': { value: '8rem' }
+				},
 				spacing: {
 					px: { value: '1px' },
 					0: { value: '0px' },
