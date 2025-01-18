@@ -7,7 +7,7 @@
 	const { Story } = defineMeta({
 		title: 'Components/NameInput',
 		component: NameInput,
-		tags: ['autodocs'],
+		// tags: ['autodocs'],
 		args: {
 			onSubmit: fn()
 		}
